@@ -27,6 +27,9 @@ const isSelected = (itemName: string) => router.currentRoute.value.name === item
                     <div class="last-name">Uytterhoeven-Spark</div>
                 </div>
             </div>
+            <div class="version-group">
+                <div class="version">4 day version</div>
+            </div>
             <div class="contact-group">
                 <div class="contact">
                     <div class="contact-details">
@@ -44,7 +47,7 @@ const isSelected = (itemName: string) => router.currentRoute.value.name === item
                     <div class="internet-links">
                         <a href="https://www.linkedin.com/in/moniqueus/"><font-awesome-icon icon="fa-brands fa-linkedin"
                                 size="2xl" /></a>
-                        <a href="https://github.com/miekeuytofficial/miekeuytsite"><font-awesome-icon
+                        <a href="https://github.com/miekeuytofficial/miekeuytsite/tree/4days"><font-awesome-icon
                                 icon="fa-brands fa-github" size="2xl" /></a>
                     </div>
                 </div>
@@ -157,6 +160,21 @@ const isSelected = (itemName: string) => router.currentRoute.value.name === item
         font-weight: normal;
         letter-spacing: 0.5rem;
         padding-block: 1.6rem;
+    }
+
+    .version-group {
+        display: flex;
+        align-items: center;
+        width: 30%;
+
+        .version {
+            color: var(--pikachu-yellow-75);
+            height: fit-content;
+            margin: 1rem;
+            margin-left: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
     }
 
     .contact-group {
