@@ -165,7 +165,7 @@ const isSelected = (itemName: string) => router.currentRoute.value.name === item
     .version-group {
         display: flex;
         align-items: center;
-        width: 30%;
+        width: 28%;
 
         .version {
             color: var(--pikachu-yellow-75);
